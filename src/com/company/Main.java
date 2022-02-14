@@ -3,9 +3,8 @@ package com.company;
 public class Main {
     public static void main(String[] args) {
         BonusMilesService service = new BonusMilesService();
-        int price = 1000;
-        int miles = service.calculate(price);
-        System.out.println(miles);
+    int bonus = service.calculate(1000);
+        System.out.println(bonus+" мили");
     }
 }
 
